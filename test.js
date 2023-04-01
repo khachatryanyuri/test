@@ -74,6 +74,29 @@
 // console.log(num);
 
 
+// let list1 = [1,2,4]
+// let list2 = [1,3,4]
+
+// var mergeTwoLists = function(list1, list2) {
+//     for (let i = 0; i < list2.length; i++) {
+//         list1.push(list2[i])    
+//     }
+        
+//     for(let i = 0; i < list1.length; i++){        
+//         for(let j = 0; j < ( list1.length - i -1); j++){
+//             if(list1[j] > list1[j+1]){
+//             var temp = list1[j]
+//             list1[j] = list1[j+1]
+//             list1[j+1] = temp
+//             }
+//         }
+//     }
+    
+//         return list1;
+//     };
+
+//     console.log(mergeTwoLists(list1, list2)); 
+
 let list1 = [1,2,4]
 let list2 = [1,3,4]
 
